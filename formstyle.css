@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+    padding: 2rem;
+    font-weight: 500;
+}
+label{
+  display: block; 
+  margin-bottom: 0.3rem; 
+}
+.form--control
+{
+    margin-bottom: 3rem;
+}
+input[type="text"],
+input[type="email"]{
+    border:2px solid #d1d5db;
+    border-radius: 5px;
+    padding:0.5rem 1rem  ;
+   
+    transition: all 0.15s;
+}
+input[type="text"],
+input[type="email"]:focus {
+    outline:0 ;
+    border: 1px solid #c4b5fd;
+    box-shadow:0 0 0 4px #f5f3ff ;
+}
+button {
+    outline: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1rem 0.5rem;
+    border:1px solid #ccc ;
+    background-color: #a78bfa;
+    color:#fff;
+    margin-top: 0.3rem;
+}
+form{
+    background-color: #ccc;
+    border:1px solid #f6f6f6;
+max-width: 50%;
+
+}
